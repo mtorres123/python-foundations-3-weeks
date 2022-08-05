@@ -15,7 +15,18 @@ Scenario 2 practice
 """
 
 # Todo: Get some input from the user
+name = input("What's your name? --> ")
+weather = input("What's the weather today? --> ")
+temp_c_high = input("What's the high temp (degC)? --> ")
+temp_c_low = input("What's the low today? --> ")
 
 # Todo: Convert the temperatures
+def c_to_f_temp(temp_c):
+    pass
 
 # Todo: Print the greeting
+print("-------------------")
+print(f"Good morning, {name}!")
+print(f"Today is going to be {weather}")
+print(f"")
+print(f"")
