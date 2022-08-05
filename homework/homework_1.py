@@ -4,7 +4,11 @@ def c_to_f_temp(temp_c):
     return(temp_f)
 
 # Todo: Create a list of reminders
-reminders = ['Dr. appt @ 3pm','Softball @ 6pm','Grocery shopping']
+reminders = """
+Dr. appt @ 3pm
+Softball @ 6pm
+Grocery shopping
+"""
 
 # Todo: Get some input from the user
 gratuity = input("What are you most grateful for today? --> ")
@@ -13,18 +17,21 @@ gratuity = input("What are you most grateful for today? --> ")
 #       - A greeting
 #       - Some reminders
 #       - 2-3 more items based on APIs that you've found
-content = """
+content = f"""
 ----------------------------------
-Good morning, Mar. Hoy va a ser un buen dia!
+Good morning, Mar!
 
 Today you're grateful for {gratuity}. 
 
 ~~ Weather ~~
 
 ~~ Reminders ~~
+{reminders}
 
 ~~ API STUFF ~~
 
+Hoy va a ser un buen dia!
+----------------------------------
 """
 
 # Todo: Print the content to the console
