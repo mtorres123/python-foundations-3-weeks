@@ -15,7 +15,7 @@ def next_num(n):
     if n % 2 == 0:
         return(int(n/2))
     else:
-        return(int(n**3+1))
+        return(int(n*3+1))
 
 
 # Todo: print the Collatz sequence for a given number
@@ -30,5 +30,5 @@ def collatz(num):
 
 # Todo: print the Collatz sequence for each number from 1 - 100
 # n = range(1,101)
-for n in range(1,5):
+for n in range(1,101):
     collatz(n)
