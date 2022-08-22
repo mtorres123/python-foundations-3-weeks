@@ -6,7 +6,7 @@ import requests
 
 base_url = 'https://api.openweathermap.org/data/2.5/weather'
 params = {
-    'appid':'64a1b642d632f736bd8bb1c887f03778',
+    'appid':'<>',
     'lat': 43.6422222,
     'lon': -72.2522222,
     'units': 'metric'
